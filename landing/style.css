@@ -117,11 +117,11 @@ body {
     .social {
         height: 10%;
         width: 10%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
     }
     .tme {
-        color:aquamarine;
-    }
-    .ytr {
         color:aquamarine;
     }
 .block_three {
@@ -143,3 +143,6 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
+    * {
+        box-sizing: border-box;
+      }
